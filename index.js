@@ -6,6 +6,8 @@ cell[0].classList.add('selectedCell')
 var play= document.querySelector('.play')
 var stop= document.querySelector('.stop')
 
+//Array from and this.cards.indexOf(this.selectCard), elemento clickeado en la grid (event.target), clidelement.classList.contains('.card')
+
 play.addEventListener('click', function(){
     refreshIntervalId = setInterval(changeCell, 1000)
 })
